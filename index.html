@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Top Wrestlers</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/app.js"></script>
+  </head>
+  <header id="header">
+    <h1 id="header-title">Jordan's Wrestling Roster</h1>
+  </header>
+  <body>
+    <form id="new-item-form">
+      <div id="form-wrapper">
+        <div class="form-item">
+          <label for="wrestler" class="primary">Wrestler</label>
+          <input type="text" id="wrestler" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="nickname" class="primary">Nickname</label>
+          <input type="text" id="nickname" required/>
+        </div>
+
+        <div class="form-item">
+            <label for="finisher" class="primary">Finisher</label>
+            <input type="text" id="finisher" required/>
+          </div>
+
+      </div>
+      <input type="submit" value="Save Wrestler To List"/>
+    </form>
+
+    <button id="delete-all">Delete All Wrestlers</button>
+
+    <h1>Wrestler List</h1>
+    <ul id="wrestler-list"></ul>
+  </body>
+</html>

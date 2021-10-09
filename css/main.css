@@ -1,0 +1,61 @@
+html > body { 
+    margin:0 auto;
+    background-color: rgb(253, 80, 80);
+    font-family: 'League Spartan Bold', arial;
+  }
+
+#header {
+
+    background-color:rgb(204, 31, 31);
+    width: 100%;
+    padding: 10px;
+    margin: 0%;
+}
+
+#header-title{
+font-family: 'League Spartan Bold', arial;
+color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+  
+  #form-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .form-item {
+    margin-right: 1.8rem;
+  }
+  
+  label.primary {
+    display: block;
+    margin: 0.4em 0;
+  }
+  
+  label::after {
+    content: ":";
+  }
+  
+  button, input[type="submit"] {
+    margin-top: 1rem;
+  }
+  
+  #wrestler-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+  
+  .wrestler-list-item {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid #0e534d;
+    border-radius: 5%;
+    background: #2e9b92;
+  }
+  
